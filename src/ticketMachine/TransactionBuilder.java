@@ -2,8 +2,8 @@ package ticketMachine;
 
 import java.time.LocalDateTime;
 
-/*
-class for building a transaction
+/**
+ * class for building a transaction
  */
 public class TransactionBuilder {
 
@@ -39,12 +39,15 @@ public class TransactionBuilder {
     public void removeMoney(int amount) {
     }
 
-    /*
+    public void setLicencePlate(String licencePlate) {
+        this.licencePlate = licencePlate;
+    }
+
+    /**
      * puts attributes of this object in a new car object
      */
     public Car finishTransaction() {
 
     }
-
 
 }

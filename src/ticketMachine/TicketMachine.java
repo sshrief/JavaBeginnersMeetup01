@@ -6,22 +6,29 @@ import java.util.ArrayList;
  * class for managing the transactions
  */
 public class TicketMachine {
- private ArrayList<Car> lijst = new ArrayList<Car>();
-    private static int fee;
+    private ArrayList<Car> list = new ArrayList<Car>();
+    private int fee;
 
-    /*
-    sets fee in cents/min
+    /**
+     * sets fee
+     *
+     * @param amount cent/minute
      */
-    public void setFee(int amount){
+    public void setFee(int amount) {
 
     }
-    /*
-   * starts transaction
-      */
-    public TransactionBuilder startTransaction(){
+
+    /**
+     * adds car to the list
+     */
+    public void addCar(Car car) {
 
     }
-    /*
 
+    /**
+     * starts transaction
      */
+    public TransactionBuilder startTransaction() {
+
+    }
 }
